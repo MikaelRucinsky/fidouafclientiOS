@@ -6,14 +6,14 @@ struct UafProtocolRequest: Codable {
 
 extension UafProtocolRequest {
     
-    static func toObject(string: String) -> UafProtocolRequest? {
+    static func toArray(string: String) -> [UafProtocolRequest] {
         if let data = string.data(using: .utf8) {
             do {
-                return try JSONDecoder().decode(UafProtocolRequest.self, from: data)
+                return try JSONDecoder().decode([UafProtocolRequest].self, from: data)
             } catch let error {
                 debugPrint("Deserialization of UafProtocolRequest failed: \(error)")
             }
         }
-        return nil
+        return []
     }
 }

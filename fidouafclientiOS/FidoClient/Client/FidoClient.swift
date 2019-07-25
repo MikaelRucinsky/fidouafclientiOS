@@ -3,9 +3,12 @@ import Foundation
 public class FidoClient {
 
     public static func process(uafMessage: UAFMessage, channelBinding: ChannelBinding? = nil) throws -> UAFMessage? {
-        let protocolMessage = UafProtocolRequest.toObject(string: uafMessage.uafProtocolMessage)
+        let protocolMessageArray = UafProtocolRequest.toArray(string: uafMessage.uafProtocolMessage)
+        if (protocolMessageArray.count <= 0) {
+            return nil
+        }
         let message = uafMessage.uafProtocolMessage
-        if (protocolMessage?.header.op == Operation.Reg) {
+        if (protocolMessageArray[0].header.op == Operation.Reg) {
             let registrationRequests = RegistrationRequest.toObject(string: message)
             guard registrationRequests.count > 0 else { return nil }
             if let regReq = registrationRequests[0] {
@@ -22,7 +25,7 @@ public class FidoClient {
                         assertions: [authenticatorRegistrationAssertion]
                     ).toArrayString().map { UAFMessage(uafProtocolMessage: $0) }
             }
-        } else if (protocolMessage?.header.op == Operation.Auth) {
+        } else if (protocolMessageArray[0].header.op == Operation.Auth) {
             let authenticationRequests = AuthenticationRequest.toObject(string: message)
             guard authenticationRequests.count > 0 else { return nil }
             if let authReq = authenticationRequests[0] {
@@ -39,7 +42,7 @@ public class FidoClient {
                         assertions: [authenticatorSignAssertion]
                 ).toArrayString().map { UAFMessage(uafProtocolMessage: $0) }
             }
-        } else if (protocolMessage?.header.op == Operation.Dereg) {
+        } else if (protocolMessageArray[0].header.op == Operation.Dereg) {
             let deregistrationRequests = DeregistrationRequest.toObject(string: message)
             if let deregReq = deregistrationRequests[0] {
                 Deregistration().process(deregRequest: deregReq)
