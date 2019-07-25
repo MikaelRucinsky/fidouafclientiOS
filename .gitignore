@@ -1,0 +1,11 @@
+*.DS_Store
+
+build/
+DerivedData/
+xcuserdata/
+Carthage/
+Pods/
+.idea
+
+*.zip
+*.ipa
