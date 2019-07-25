@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "24F5416122E88DDE00FB0CEE"
-               BuildableName = "fidouafclientiOS.framework"
-               BlueprintName = "fidouafclientiOS"
-               ReferencedContainer = "container:fidouafclientiOS.xcodeproj">
+               BlueprintIdentifier = "247330B122E9E58A006FDC50"
+               BuildableName = "FidoUafClientiOS.framework"
+               BlueprintName = "FidoUafClientiOS"
+               ReferencedContainer = "container:FidoUafClientiOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "24F5416A22E88DDE00FB0CEE"
-               BuildableName = "fidouafclientiOSTests.xctest"
-               BlueprintName = "fidouafclientiOSTests"
-               ReferencedContainer = "container:fidouafclientiOS.xcodeproj">
+               BlueprintIdentifier = "247330BA22E9E58B006FDC50"
+               BuildableName = "FidoUafClientiOSTests.xctest"
+               BlueprintName = "FidoUafClientiOSTests"
+               ReferencedContainer = "container:FidoUafClientiOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "24F5416122E88DDE00FB0CEE"
-            BuildableName = "fidouafclientiOS.framework"
-            BlueprintName = "fidouafclientiOS"
-            ReferencedContainer = "container:fidouafclientiOS.xcodeproj">
+            BlueprintIdentifier = "247330B122E9E58A006FDC50"
+            BuildableName = "FidoUafClientiOS.framework"
+            BlueprintName = "FidoUafClientiOS"
+            ReferencedContainer = "container:FidoUafClientiOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "24F5416122E88DDE00FB0CEE"
-            BuildableName = "fidouafclientiOS.framework"
-            BlueprintName = "fidouafclientiOS"
-            ReferencedContainer = "container:fidouafclientiOS.xcodeproj">
+            BlueprintIdentifier = "247330B122E9E58A006FDC50"
+            BuildableName = "FidoUafClientiOS.framework"
+            BlueprintName = "FidoUafClientiOS"
+            ReferencedContainer = "container:FidoUafClientiOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "24F5416122E88DDE00FB0CEE"
-            BuildableName = "fidouafclientiOS.framework"
-            BlueprintName = "fidouafclientiOS"
-            ReferencedContainer = "container:fidouafclientiOS.xcodeproj">
+            BlueprintIdentifier = "247330B122E9E58A006FDC50"
+            BuildableName = "FidoUafClientiOS.framework"
+            BlueprintName = "FidoUafClientiOS"
+            ReferencedContainer = "container:FidoUafClientiOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

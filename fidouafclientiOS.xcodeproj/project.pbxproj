@@ -7,325 +7,325 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2473304322E98EAD006FDC50 /* TagsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473301E22E98EAC006FDC50 /* TagsEnum.swift */; };
-		2473304422E98EAD006FDC50 /* EllipticCurveKeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302022E98EAC006FDC50 /* EllipticCurveKeyPair.swift */; };
-		2473304522E98EAD006FDC50 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302122E98EAC006FDC50 /* Storage.swift */; };
-		2473304622E98EAD006FDC50 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302222E98EAC006FDC50 /* Hash.swift */; };
-		2473304722E98EAD006FDC50 /* FidoClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302322E98EAC006FDC50 /* FidoClientError.swift */; };
-		2473304822E98EAD006FDC50 /* UnsignedUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302422E98EAC006FDC50 /* UnsignedUtil.swift */; };
-		2473304922E98EAD006FDC50 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302522E98EAC006FDC50 /* Utils.swift */; };
-		2473304A22E98EAD006FDC50 /* TrustedFacets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302722E98EAC006FDC50 /* TrustedFacets.swift */; };
-		2473304B22E98EAD006FDC50 /* AuthenticatorRegistrationAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302822E98EAC006FDC50 /* AuthenticatorRegistrationAssertion.swift */; };
-		2473304C22E98EAD006FDC50 /* RegistrationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302922E98EAC006FDC50 /* RegistrationRequest.swift */; };
-		2473304D22E98EAD006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302A22E98EAC006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift */; };
-		2473304E22E98EAD006FDC50 /* MatchCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302B22E98EAC006FDC50 /* MatchCriteria.swift */; };
-		2473304F22E98EAD006FDC50 /* Policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302C22E98EAC006FDC50 /* Policy.swift */; };
-		2473305022E98EAD006FDC50 /* FinalChallengeParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302D22E98EAC006FDC50 /* FinalChallengeParams.swift */; };
-		2473305122E98EAD006FDC50 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302E22E98EAC006FDC50 /* Version.swift */; };
-		2473305222E98EAD006FDC50 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473302F22E98EAC006FDC50 /* AuthenticationResponse.swift */; };
-		2473305322E98EAD006FDC50 /* RgbPalletteEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303022E98EAC006FDC50 /* RgbPalletteEntry.swift */; };
-		2473305422E98EAD006FDC50 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303122E98EAC006FDC50 /* Extension.swift */; };
-		2473305522E98EAD006FDC50 /* ChannelBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303222E98EAC006FDC50 /* ChannelBinding.swift */; };
-		2473305622E98EAD006FDC50 /* AuthenticatorSignAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303322E98EAC006FDC50 /* AuthenticatorSignAssertion.swift */; };
-		2473305722E98EAD006FDC50 /* OperationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303422E98EAC006FDC50 /* OperationHeader.swift */; };
-		2473305822E98EAD006FDC50 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303522E98EAC006FDC50 /* Transaction.swift */; };
-		2473305922E98EAD006FDC50 /* DeregisterAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303622E98EAC006FDC50 /* DeregisterAuthenticator.swift */; };
-		2473305A22E98EAD006FDC50 /* RegistrationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303722E98EAC006FDC50 /* RegistrationResponse.swift */; };
-		2473305B22E98EAD006FDC50 /* AuthenticationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303822E98EAC006FDC50 /* AuthenticationRequest.swift */; };
-		2473305C22E98EAD006FDC50 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303922E98EAC006FDC50 /* Operation.swift */; };
-		2473305D22E98EAD006FDC50 /* DeregistrationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303A22E98EAC006FDC50 /* DeregistrationRequest.swift */; };
-		2473305E22E98EAD006FDC50 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303C22E98EAC006FDC50 /* Authentication.swift */; };
-		2473305F22E98EAD006FDC50 /* Deregistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303D22E98EAC006FDC50 /* Deregistration.swift */; };
-		2473306022E98EAD006FDC50 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473303E22E98EAC006FDC50 /* Registration.swift */; };
-		2473306122E98EAD006FDC50 /* FidoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473304022E98EAC006FDC50 /* FidoClient.swift */; };
-		2473306222E98EAD006FDC50 /* TrustedFacetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473304222E98EAC006FDC50 /* TrustedFacetsService.swift */; };
-		2473306422E98EF9006FDC50 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473306322E98EF9006FDC50 /* UIDeviceExtension.swift */; };
-		2473306622E98F57006FDC50 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473306522E98F57006FDC50 /* DataExtension.swift */; };
-		2473306822E98FB7006FDC50 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473306722E98FB7006FDC50 /* StringExtension.swift */; };
-		2473306B22E99B8E006FDC50 /* fidouafclient.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2473306D22E99B8E006FDC50 /* fidouafclient.strings */; };
-		2473307522E9A30B006FDC50 /* UAFMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473307422E9A30B006FDC50 /* UAFMessage.swift */; };
-		2473307722E9AF46006FDC50 /* UafProtocolRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473307622E9AF46006FDC50 /* UafProtocolRequest.swift */; };
-		24F5416C22E88DDE00FB0CEE /* fidouafclientiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F5416222E88DDE00FB0CEE /* fidouafclientiOS.framework */; };
-		24F5417122E88DDE00FB0CEE /* fidouafclientiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F5417022E88DDE00FB0CEE /* fidouafclientiOSTests.swift */; };
-		24F5417322E88DDE00FB0CEE /* fidouafclientiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F5416522E88DDE00FB0CEE /* fidouafclientiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		247330BC22E9E58B006FDC50 /* FidoUafClientiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247330B222E9E58A006FDC50 /* FidoUafClientiOS.framework */; };
+		247330C122E9E58B006FDC50 /* FidoUafClientiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330C022E9E58B006FDC50 /* FidoUafClientiOSTests.swift */; };
+		247330C322E9E58B006FDC50 /* FidoUafClientiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 247330B522E9E58B006FDC50 /* FidoUafClientiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		247330F822E9E5C8006FDC50 /* TagsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330CE22E9E5C8006FDC50 /* TagsEnum.swift */; };
+		247330F922E9E5C8006FDC50 /* EllipticCurveKeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330D022E9E5C8006FDC50 /* EllipticCurveKeyPair.swift */; };
+		247330FA22E9E5C8006FDC50 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330D122E9E5C8006FDC50 /* Storage.swift */; };
+		247330FB22E9E5C8006FDC50 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330D222E9E5C8006FDC50 /* Hash.swift */; };
+		247330FC22E9E5C8006FDC50 /* FidoClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330D322E9E5C8006FDC50 /* FidoClientError.swift */; };
+		247330FD22E9E5C8006FDC50 /* UnsignedUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330D422E9E5C8006FDC50 /* UnsignedUtil.swift */; };
+		247330FE22E9E5C8006FDC50 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330D522E9E5C8006FDC50 /* UIDeviceExtension.swift */; };
+		247330FF22E9E5C8006FDC50 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330D622E9E5C8006FDC50 /* DataExtension.swift */; };
+		2473310022E9E5C8006FDC50 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330D722E9E5C8006FDC50 /* Utils.swift */; };
+		2473310122E9E5C8006FDC50 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330D822E9E5C8006FDC50 /* StringExtension.swift */; };
+		2473310222E9E5C8006FDC50 /* TrustedFacets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330DA22E9E5C8006FDC50 /* TrustedFacets.swift */; };
+		2473310322E9E5C8006FDC50 /* AuthenticatorRegistrationAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330DB22E9E5C8006FDC50 /* AuthenticatorRegistrationAssertion.swift */; };
+		2473310422E9E5C8006FDC50 /* RegistrationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330DC22E9E5C8006FDC50 /* RegistrationRequest.swift */; };
+		2473310522E9E5C8006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330DD22E9E5C8006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift */; };
+		2473310622E9E5C8006FDC50 /* MatchCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330DE22E9E5C8006FDC50 /* MatchCriteria.swift */; };
+		2473310722E9E5C8006FDC50 /* Policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330DF22E9E5C8006FDC50 /* Policy.swift */; };
+		2473310822E9E5C8006FDC50 /* UAFMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E022E9E5C8006FDC50 /* UAFMessage.swift */; };
+		2473310922E9E5C8006FDC50 /* FinalChallengeParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E122E9E5C8006FDC50 /* FinalChallengeParams.swift */; };
+		2473310A22E9E5C8006FDC50 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E222E9E5C8006FDC50 /* Version.swift */; };
+		2473310B22E9E5C8006FDC50 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E322E9E5C8006FDC50 /* AuthenticationResponse.swift */; };
+		2473310C22E9E5C8006FDC50 /* RgbPalletteEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E422E9E5C8006FDC50 /* RgbPalletteEntry.swift */; };
+		2473310D22E9E5C8006FDC50 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E522E9E5C8006FDC50 /* Extension.swift */; };
+		2473310E22E9E5C8006FDC50 /* ChannelBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E622E9E5C8006FDC50 /* ChannelBinding.swift */; };
+		2473310F22E9E5C8006FDC50 /* AuthenticatorSignAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E722E9E5C8006FDC50 /* AuthenticatorSignAssertion.swift */; };
+		2473311022E9E5C8006FDC50 /* OperationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E822E9E5C8006FDC50 /* OperationHeader.swift */; };
+		2473311122E9E5C8006FDC50 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330E922E9E5C8006FDC50 /* Transaction.swift */; };
+		2473311222E9E5C8006FDC50 /* UafProtocolRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330EA22E9E5C8006FDC50 /* UafProtocolRequest.swift */; };
+		2473311322E9E5C8006FDC50 /* DeregisterAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330EB22E9E5C8006FDC50 /* DeregisterAuthenticator.swift */; };
+		2473311422E9E5C8006FDC50 /* RegistrationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330EC22E9E5C8006FDC50 /* RegistrationResponse.swift */; };
+		2473311522E9E5C8006FDC50 /* AuthenticationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330ED22E9E5C8006FDC50 /* AuthenticationRequest.swift */; };
+		2473311622E9E5C8006FDC50 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330EE22E9E5C8006FDC50 /* Operation.swift */; };
+		2473311722E9E5C8006FDC50 /* DeregistrationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330EF22E9E5C8006FDC50 /* DeregistrationRequest.swift */; };
+		2473311822E9E5C8006FDC50 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330F122E9E5C8006FDC50 /* Authentication.swift */; };
+		2473311922E9E5C8006FDC50 /* Deregistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330F222E9E5C8006FDC50 /* Deregistration.swift */; };
+		2473311A22E9E5C8006FDC50 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330F322E9E5C8006FDC50 /* Registration.swift */; };
+		2473311B22E9E5C8006FDC50 /* FidoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330F522E9E5C8006FDC50 /* FidoClient.swift */; };
+		2473311C22E9E5C8006FDC50 /* TrustedFacetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330F722E9E5C8006FDC50 /* TrustedFacetsService.swift */; };
+		2473311F22E9E608006FDC50 /* fidouafclient.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2473312122E9E608006FDC50 /* fidouafclient.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24F5416D22E88DDE00FB0CEE /* PBXContainerItemProxy */ = {
+		247330BD22E9E58B006FDC50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 24F5415922E88DDE00FB0CEE /* Project object */;
+			containerPortal = 247330A922E9E58A006FDC50 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 24F5416122E88DDE00FB0CEE;
-			remoteInfo = fidouafclientiOS;
+			remoteGlobalIDString = 247330B122E9E58A006FDC50;
+			remoteInfo = FidoUafClientiOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2473301E22E98EAC006FDC50 /* TagsEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsEnum.swift; sourceTree = "<group>"; };
-		2473302022E98EAC006FDC50 /* EllipticCurveKeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPair.swift; sourceTree = "<group>"; };
-		2473302122E98EAC006FDC50 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
-		2473302222E98EAC006FDC50 /* Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
-		2473302322E98EAC006FDC50 /* FidoClientError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FidoClientError.swift; sourceTree = "<group>"; };
-		2473302422E98EAC006FDC50 /* UnsignedUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsignedUtil.swift; sourceTree = "<group>"; };
-		2473302522E98EAC006FDC50 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		2473302722E98EAC006FDC50 /* TrustedFacets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustedFacets.swift; sourceTree = "<group>"; };
-		2473302822E98EAC006FDC50 /* AuthenticatorRegistrationAssertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticatorRegistrationAssertion.swift; sourceTree = "<group>"; };
-		2473302922E98EAC006FDC50 /* RegistrationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationRequest.swift; sourceTree = "<group>"; };
-		2473302A22E98EAC006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayPNGCharacteristicsDescriptor.swift; sourceTree = "<group>"; };
-		2473302B22E98EAC006FDC50 /* MatchCriteria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCriteria.swift; sourceTree = "<group>"; };
-		2473302C22E98EAC006FDC50 /* Policy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Policy.swift; sourceTree = "<group>"; };
-		2473302D22E98EAC006FDC50 /* FinalChallengeParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalChallengeParams.swift; sourceTree = "<group>"; };
-		2473302E22E98EAC006FDC50 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
-		2473302F22E98EAC006FDC50 /* AuthenticationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationResponse.swift; sourceTree = "<group>"; };
-		2473303022E98EAC006FDC50 /* RgbPalletteEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RgbPalletteEntry.swift; sourceTree = "<group>"; };
-		2473303122E98EAC006FDC50 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		2473303222E98EAC006FDC50 /* ChannelBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelBinding.swift; sourceTree = "<group>"; };
-		2473303322E98EAC006FDC50 /* AuthenticatorSignAssertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticatorSignAssertion.swift; sourceTree = "<group>"; };
-		2473303422E98EAC006FDC50 /* OperationHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationHeader.swift; sourceTree = "<group>"; };
-		2473303522E98EAC006FDC50 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		2473303622E98EAC006FDC50 /* DeregisterAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeregisterAuthenticator.swift; sourceTree = "<group>"; };
-		2473303722E98EAC006FDC50 /* RegistrationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationResponse.swift; sourceTree = "<group>"; };
-		2473303822E98EAC006FDC50 /* AuthenticationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationRequest.swift; sourceTree = "<group>"; };
-		2473303922E98EAC006FDC50 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
-		2473303A22E98EAC006FDC50 /* DeregistrationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeregistrationRequest.swift; sourceTree = "<group>"; };
-		2473303C22E98EAC006FDC50 /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
-		2473303D22E98EAC006FDC50 /* Deregistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deregistration.swift; sourceTree = "<group>"; };
-		2473303E22E98EAC006FDC50 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
-		2473304022E98EAC006FDC50 /* FidoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FidoClient.swift; sourceTree = "<group>"; };
-		2473304222E98EAC006FDC50 /* TrustedFacetsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustedFacetsService.swift; sourceTree = "<group>"; };
-		2473306322E98EF9006FDC50 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
-		2473306522E98F57006FDC50 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
-		2473306722E98FB7006FDC50 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		2473306C22E99B8E006FDC50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/fidouafclient.strings; sourceTree = "<group>"; };
-		2473306F22E99BED006FDC50 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/fidouafclient.strings; sourceTree = "<group>"; };
-		2473307422E9A30B006FDC50 /* UAFMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAFMessage.swift; sourceTree = "<group>"; };
-		2473307622E9AF46006FDC50 /* UafProtocolRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UafProtocolRequest.swift; sourceTree = "<group>"; };
-		24F5416222E88DDE00FB0CEE /* fidouafclientiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fidouafclientiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24F5416522E88DDE00FB0CEE /* fidouafclientiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fidouafclientiOS.h; sourceTree = "<group>"; };
-		24F5416622E88DDE00FB0CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24F5416B22E88DDE00FB0CEE /* fidouafclientiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fidouafclientiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24F5417022E88DDE00FB0CEE /* fidouafclientiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fidouafclientiOSTests.swift; sourceTree = "<group>"; };
-		24F5417222E88DDE00FB0CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247330B222E9E58A006FDC50 /* FidoUafClientiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FidoUafClientiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		247330B522E9E58B006FDC50 /* FidoUafClientiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FidoUafClientiOS.h; sourceTree = "<group>"; };
+		247330B622E9E58B006FDC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247330BB22E9E58B006FDC50 /* FidoUafClientiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidoUafClientiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		247330C022E9E58B006FDC50 /* FidoUafClientiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidoUafClientiOSTests.swift; sourceTree = "<group>"; };
+		247330C222E9E58B006FDC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247330CE22E9E5C8006FDC50 /* TagsEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsEnum.swift; sourceTree = "<group>"; };
+		247330D022E9E5C8006FDC50 /* EllipticCurveKeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPair.swift; sourceTree = "<group>"; };
+		247330D122E9E5C8006FDC50 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		247330D222E9E5C8006FDC50 /* Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		247330D322E9E5C8006FDC50 /* FidoClientError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FidoClientError.swift; sourceTree = "<group>"; };
+		247330D422E9E5C8006FDC50 /* UnsignedUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsignedUtil.swift; sourceTree = "<group>"; };
+		247330D522E9E5C8006FDC50 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		247330D622E9E5C8006FDC50 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		247330D722E9E5C8006FDC50 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		247330D822E9E5C8006FDC50 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		247330DA22E9E5C8006FDC50 /* TrustedFacets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustedFacets.swift; sourceTree = "<group>"; };
+		247330DB22E9E5C8006FDC50 /* AuthenticatorRegistrationAssertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticatorRegistrationAssertion.swift; sourceTree = "<group>"; };
+		247330DC22E9E5C8006FDC50 /* RegistrationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationRequest.swift; sourceTree = "<group>"; };
+		247330DD22E9E5C8006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayPNGCharacteristicsDescriptor.swift; sourceTree = "<group>"; };
+		247330DE22E9E5C8006FDC50 /* MatchCriteria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCriteria.swift; sourceTree = "<group>"; };
+		247330DF22E9E5C8006FDC50 /* Policy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Policy.swift; sourceTree = "<group>"; };
+		247330E022E9E5C8006FDC50 /* UAFMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UAFMessage.swift; sourceTree = "<group>"; };
+		247330E122E9E5C8006FDC50 /* FinalChallengeParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalChallengeParams.swift; sourceTree = "<group>"; };
+		247330E222E9E5C8006FDC50 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		247330E322E9E5C8006FDC50 /* AuthenticationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationResponse.swift; sourceTree = "<group>"; };
+		247330E422E9E5C8006FDC50 /* RgbPalletteEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RgbPalletteEntry.swift; sourceTree = "<group>"; };
+		247330E522E9E5C8006FDC50 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		247330E622E9E5C8006FDC50 /* ChannelBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelBinding.swift; sourceTree = "<group>"; };
+		247330E722E9E5C8006FDC50 /* AuthenticatorSignAssertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticatorSignAssertion.swift; sourceTree = "<group>"; };
+		247330E822E9E5C8006FDC50 /* OperationHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationHeader.swift; sourceTree = "<group>"; };
+		247330E922E9E5C8006FDC50 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		247330EA22E9E5C8006FDC50 /* UafProtocolRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UafProtocolRequest.swift; sourceTree = "<group>"; };
+		247330EB22E9E5C8006FDC50 /* DeregisterAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeregisterAuthenticator.swift; sourceTree = "<group>"; };
+		247330EC22E9E5C8006FDC50 /* RegistrationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationResponse.swift; sourceTree = "<group>"; };
+		247330ED22E9E5C8006FDC50 /* AuthenticationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationRequest.swift; sourceTree = "<group>"; };
+		247330EE22E9E5C8006FDC50 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		247330EF22E9E5C8006FDC50 /* DeregistrationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeregistrationRequest.swift; sourceTree = "<group>"; };
+		247330F122E9E5C8006FDC50 /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		247330F222E9E5C8006FDC50 /* Deregistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deregistration.swift; sourceTree = "<group>"; };
+		247330F322E9E5C8006FDC50 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		247330F522E9E5C8006FDC50 /* FidoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FidoClient.swift; sourceTree = "<group>"; };
+		247330F722E9E5C8006FDC50 /* TrustedFacetsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustedFacetsService.swift; sourceTree = "<group>"; };
+		2473312022E9E608006FDC50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/fidouafclient.strings; sourceTree = "<group>"; };
+		2473312422E9E66C006FDC50 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/fidouafclient.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		24F5415F22E88DDE00FB0CEE /* Frameworks */ = {
+		247330AF22E9E58A006FDC50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24F5416822E88DDE00FB0CEE /* Frameworks */ = {
+		247330B822E9E58B006FDC50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F5416C22E88DDE00FB0CEE /* fidouafclientiOS.framework in Frameworks */,
+				247330BC22E9E58B006FDC50 /* FidoUafClientiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2473301C22E98EAC006FDC50 /* FidoClient */ = {
+		247330A822E9E58A006FDC50 = {
 			isa = PBXGroup;
 			children = (
-				2473301D22E98EAC006FDC50 /* TLV */,
-				2473301F22E98EAC006FDC50 /* Util */,
-				2473302622E98EAC006FDC50 /* Model */,
-				2473303B22E98EAC006FDC50 /* Authenticator */,
-				2473303F22E98EAC006FDC50 /* Client */,
-				2473304122E98EAC006FDC50 /* Services */,
-			);
-			path = FidoClient;
-			sourceTree = "<group>";
-		};
-		2473301D22E98EAC006FDC50 /* TLV */ = {
-			isa = PBXGroup;
-			children = (
-				2473301E22E98EAC006FDC50 /* TagsEnum.swift */,
-			);
-			path = TLV;
-			sourceTree = "<group>";
-		};
-		2473301F22E98EAC006FDC50 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				2473302022E98EAC006FDC50 /* EllipticCurveKeyPair.swift */,
-				2473302122E98EAC006FDC50 /* Storage.swift */,
-				2473302222E98EAC006FDC50 /* Hash.swift */,
-				2473302322E98EAC006FDC50 /* FidoClientError.swift */,
-				2473302422E98EAC006FDC50 /* UnsignedUtil.swift */,
-				2473302522E98EAC006FDC50 /* Utils.swift */,
-				2473306322E98EF9006FDC50 /* UIDeviceExtension.swift */,
-				2473306522E98F57006FDC50 /* DataExtension.swift */,
-				2473306722E98FB7006FDC50 /* StringExtension.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		2473302622E98EAC006FDC50 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2473302722E98EAC006FDC50 /* TrustedFacets.swift */,
-				2473302822E98EAC006FDC50 /* AuthenticatorRegistrationAssertion.swift */,
-				2473302922E98EAC006FDC50 /* RegistrationRequest.swift */,
-				2473302A22E98EAC006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift */,
-				2473302B22E98EAC006FDC50 /* MatchCriteria.swift */,
-				2473302C22E98EAC006FDC50 /* Policy.swift */,
-				2473302D22E98EAC006FDC50 /* FinalChallengeParams.swift */,
-				2473302E22E98EAC006FDC50 /* Version.swift */,
-				2473302F22E98EAC006FDC50 /* AuthenticationResponse.swift */,
-				2473303022E98EAC006FDC50 /* RgbPalletteEntry.swift */,
-				2473303122E98EAC006FDC50 /* Extension.swift */,
-				2473303222E98EAC006FDC50 /* ChannelBinding.swift */,
-				2473303322E98EAC006FDC50 /* AuthenticatorSignAssertion.swift */,
-				2473303422E98EAC006FDC50 /* OperationHeader.swift */,
-				2473303522E98EAC006FDC50 /* Transaction.swift */,
-				2473303622E98EAC006FDC50 /* DeregisterAuthenticator.swift */,
-				2473303722E98EAC006FDC50 /* RegistrationResponse.swift */,
-				2473303822E98EAC006FDC50 /* AuthenticationRequest.swift */,
-				2473303922E98EAC006FDC50 /* Operation.swift */,
-				2473303A22E98EAC006FDC50 /* DeregistrationRequest.swift */,
-				2473307422E9A30B006FDC50 /* UAFMessage.swift */,
-				2473307622E9AF46006FDC50 /* UafProtocolRequest.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2473303B22E98EAC006FDC50 /* Authenticator */ = {
-			isa = PBXGroup;
-			children = (
-				2473303C22E98EAC006FDC50 /* Authentication.swift */,
-				2473303D22E98EAC006FDC50 /* Deregistration.swift */,
-				2473303E22E98EAC006FDC50 /* Registration.swift */,
-			);
-			path = Authenticator;
-			sourceTree = "<group>";
-		};
-		2473303F22E98EAC006FDC50 /* Client */ = {
-			isa = PBXGroup;
-			children = (
-				2473304022E98EAC006FDC50 /* FidoClient.swift */,
-			);
-			path = Client;
-			sourceTree = "<group>";
-		};
-		2473304122E98EAC006FDC50 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				2473304222E98EAC006FDC50 /* TrustedFacetsService.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		24F5415822E88DDE00FB0CEE = {
-			isa = PBXGroup;
-			children = (
-				24F5416422E88DDE00FB0CEE /* fidouafclientiOS */,
-				24F5416F22E88DDE00FB0CEE /* fidouafclientiOSTests */,
-				24F5416322E88DDE00FB0CEE /* Products */,
+				247330B422E9E58A006FDC50 /* FidoUafClientiOS */,
+				247330BF22E9E58B006FDC50 /* FidoUafClientiOSTests */,
+				247330B322E9E58A006FDC50 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		24F5416322E88DDE00FB0CEE /* Products */ = {
+		247330B322E9E58A006FDC50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24F5416222E88DDE00FB0CEE /* fidouafclientiOS.framework */,
-				24F5416B22E88DDE00FB0CEE /* fidouafclientiOSTests.xctest */,
+				247330B222E9E58A006FDC50 /* FidoUafClientiOS.framework */,
+				247330BB22E9E58B006FDC50 /* FidoUafClientiOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24F5416422E88DDE00FB0CEE /* fidouafclientiOS */ = {
+		247330B422E9E58A006FDC50 /* FidoUafClientiOS */ = {
 			isa = PBXGroup;
 			children = (
-				2473301C22E98EAC006FDC50 /* FidoClient */,
-				24F5416522E88DDE00FB0CEE /* fidouafclientiOS.h */,
-				24F5416622E88DDE00FB0CEE /* Info.plist */,
-				2473306D22E99B8E006FDC50 /* fidouafclient.strings */,
+				247330CC22E9E5C8006FDC50 /* FidoClient */,
+				247330B522E9E58B006FDC50 /* FidoUafClientiOS.h */,
+				247330B622E9E58B006FDC50 /* Info.plist */,
+				2473312122E9E608006FDC50 /* fidouafclient.strings */,
 			);
-			path = fidouafclientiOS;
+			path = FidoUafClientiOS;
 			sourceTree = "<group>";
 		};
-		24F5416F22E88DDE00FB0CEE /* fidouafclientiOSTests */ = {
+		247330BF22E9E58B006FDC50 /* FidoUafClientiOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				24F5417022E88DDE00FB0CEE /* fidouafclientiOSTests.swift */,
-				24F5417222E88DDE00FB0CEE /* Info.plist */,
+				247330C022E9E58B006FDC50 /* FidoUafClientiOSTests.swift */,
+				247330C222E9E58B006FDC50 /* Info.plist */,
 			);
-			path = fidouafclientiOSTests;
+			path = FidoUafClientiOSTests;
+			sourceTree = "<group>";
+		};
+		247330CC22E9E5C8006FDC50 /* FidoClient */ = {
+			isa = PBXGroup;
+			children = (
+				247330CD22E9E5C8006FDC50 /* TLV */,
+				247330CF22E9E5C8006FDC50 /* Util */,
+				247330D922E9E5C8006FDC50 /* Model */,
+				247330F022E9E5C8006FDC50 /* Authenticator */,
+				247330F422E9E5C8006FDC50 /* Client */,
+				247330F622E9E5C8006FDC50 /* Services */,
+			);
+			path = FidoClient;
+			sourceTree = "<group>";
+		};
+		247330CD22E9E5C8006FDC50 /* TLV */ = {
+			isa = PBXGroup;
+			children = (
+				247330CE22E9E5C8006FDC50 /* TagsEnum.swift */,
+			);
+			path = TLV;
+			sourceTree = "<group>";
+		};
+		247330CF22E9E5C8006FDC50 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				247330D022E9E5C8006FDC50 /* EllipticCurveKeyPair.swift */,
+				247330D122E9E5C8006FDC50 /* Storage.swift */,
+				247330D222E9E5C8006FDC50 /* Hash.swift */,
+				247330D322E9E5C8006FDC50 /* FidoClientError.swift */,
+				247330D422E9E5C8006FDC50 /* UnsignedUtil.swift */,
+				247330D522E9E5C8006FDC50 /* UIDeviceExtension.swift */,
+				247330D622E9E5C8006FDC50 /* DataExtension.swift */,
+				247330D722E9E5C8006FDC50 /* Utils.swift */,
+				247330D822E9E5C8006FDC50 /* StringExtension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		247330D922E9E5C8006FDC50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				247330DA22E9E5C8006FDC50 /* TrustedFacets.swift */,
+				247330DB22E9E5C8006FDC50 /* AuthenticatorRegistrationAssertion.swift */,
+				247330DC22E9E5C8006FDC50 /* RegistrationRequest.swift */,
+				247330DD22E9E5C8006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift */,
+				247330DE22E9E5C8006FDC50 /* MatchCriteria.swift */,
+				247330DF22E9E5C8006FDC50 /* Policy.swift */,
+				247330E022E9E5C8006FDC50 /* UAFMessage.swift */,
+				247330E122E9E5C8006FDC50 /* FinalChallengeParams.swift */,
+				247330E222E9E5C8006FDC50 /* Version.swift */,
+				247330E322E9E5C8006FDC50 /* AuthenticationResponse.swift */,
+				247330E422E9E5C8006FDC50 /* RgbPalletteEntry.swift */,
+				247330E522E9E5C8006FDC50 /* Extension.swift */,
+				247330E622E9E5C8006FDC50 /* ChannelBinding.swift */,
+				247330E722E9E5C8006FDC50 /* AuthenticatorSignAssertion.swift */,
+				247330E822E9E5C8006FDC50 /* OperationHeader.swift */,
+				247330E922E9E5C8006FDC50 /* Transaction.swift */,
+				247330EA22E9E5C8006FDC50 /* UafProtocolRequest.swift */,
+				247330EB22E9E5C8006FDC50 /* DeregisterAuthenticator.swift */,
+				247330EC22E9E5C8006FDC50 /* RegistrationResponse.swift */,
+				247330ED22E9E5C8006FDC50 /* AuthenticationRequest.swift */,
+				247330EE22E9E5C8006FDC50 /* Operation.swift */,
+				247330EF22E9E5C8006FDC50 /* DeregistrationRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		247330F022E9E5C8006FDC50 /* Authenticator */ = {
+			isa = PBXGroup;
+			children = (
+				247330F122E9E5C8006FDC50 /* Authentication.swift */,
+				247330F222E9E5C8006FDC50 /* Deregistration.swift */,
+				247330F322E9E5C8006FDC50 /* Registration.swift */,
+			);
+			path = Authenticator;
+			sourceTree = "<group>";
+		};
+		247330F422E9E5C8006FDC50 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				247330F522E9E5C8006FDC50 /* FidoClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		247330F622E9E5C8006FDC50 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				247330F722E9E5C8006FDC50 /* TrustedFacetsService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		24F5415D22E88DDE00FB0CEE /* Headers */ = {
+		247330AD22E9E58A006FDC50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F5417322E88DDE00FB0CEE /* fidouafclientiOS.h in Headers */,
+				247330C322E9E58B006FDC50 /* FidoUafClientiOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		24F5416122E88DDE00FB0CEE /* fidouafclientiOS */ = {
+		247330B122E9E58A006FDC50 /* FidoUafClientiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24F5417622E88DDE00FB0CEE /* Build configuration list for PBXNativeTarget "fidouafclientiOS" */;
+			buildConfigurationList = 247330C622E9E58B006FDC50 /* Build configuration list for PBXNativeTarget "FidoUafClientiOS" */;
 			buildPhases = (
-				24F5415D22E88DDE00FB0CEE /* Headers */,
-				24F5415E22E88DDE00FB0CEE /* Sources */,
-				24F5415F22E88DDE00FB0CEE /* Frameworks */,
-				24F5416022E88DDE00FB0CEE /* Resources */,
+				247330AD22E9E58A006FDC50 /* Headers */,
+				247330AE22E9E58A006FDC50 /* Sources */,
+				247330AF22E9E58A006FDC50 /* Frameworks */,
+				247330B022E9E58A006FDC50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = fidouafclientiOS;
-			productName = fidouafclientiOS;
-			productReference = 24F5416222E88DDE00FB0CEE /* fidouafclientiOS.framework */;
+			name = FidoUafClientiOS;
+			productName = FidoUafClientiOS;
+			productReference = 247330B222E9E58A006FDC50 /* FidoUafClientiOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		24F5416A22E88DDE00FB0CEE /* fidouafclientiOSTests */ = {
+		247330BA22E9E58B006FDC50 /* FidoUafClientiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24F5417922E88DDE00FB0CEE /* Build configuration list for PBXNativeTarget "fidouafclientiOSTests" */;
+			buildConfigurationList = 247330C922E9E58B006FDC50 /* Build configuration list for PBXNativeTarget "FidoUafClientiOSTests" */;
 			buildPhases = (
-				24F5416722E88DDE00FB0CEE /* Sources */,
-				24F5416822E88DDE00FB0CEE /* Frameworks */,
-				24F5416922E88DDE00FB0CEE /* Resources */,
+				247330B722E9E58B006FDC50 /* Sources */,
+				247330B822E9E58B006FDC50 /* Frameworks */,
+				247330B922E9E58B006FDC50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				24F5416E22E88DDE00FB0CEE /* PBXTargetDependency */,
+				247330BE22E9E58B006FDC50 /* PBXTargetDependency */,
 			);
-			name = fidouafclientiOSTests;
-			productName = fidouafclientiOSTests;
-			productReference = 24F5416B22E88DDE00FB0CEE /* fidouafclientiOSTests.xctest */;
+			name = FidoUafClientiOSTests;
+			productName = FidoUafClientiOSTests;
+			productReference = 247330BB22E9E58B006FDC50 /* FidoUafClientiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		24F5415922E88DDE00FB0CEE /* Project object */ = {
+		247330A922E9E58A006FDC50 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Hanko;
 				TargetAttributes = {
-					24F5416122E88DDE00FB0CEE = {
+					247330B122E9E58A006FDC50 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					24F5416A22E88DDE00FB0CEE = {
+					247330BA22E9E58B006FDC50 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 24F5415C22E88DDE00FB0CEE /* Build configuration list for PBXProject "fidouafclientiOS" */;
+			buildConfigurationList = 247330AC22E9E58A006FDC50 /* Build configuration list for PBXProject "FidoUafClientiOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -333,27 +333,27 @@
 				en,
 				de,
 			);
-			mainGroup = 24F5415822E88DDE00FB0CEE;
-			productRefGroup = 24F5416322E88DDE00FB0CEE /* Products */;
+			mainGroup = 247330A822E9E58A006FDC50;
+			productRefGroup = 247330B322E9E58A006FDC50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24F5416122E88DDE00FB0CEE /* fidouafclientiOS */,
-				24F5416A22E88DDE00FB0CEE /* fidouafclientiOSTests */,
+				247330B122E9E58A006FDC50 /* FidoUafClientiOS */,
+				247330BA22E9E58B006FDC50 /* FidoUafClientiOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		24F5416022E88DDE00FB0CEE /* Resources */ = {
+		247330B022E9E58A006FDC50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2473306B22E99B8E006FDC50 /* fidouafclient.strings in Resources */,
+				2473311F22E9E608006FDC50 /* fidouafclient.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24F5416922E88DDE00FB0CEE /* Resources */ = {
+		247330B922E9E58B006FDC50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,74 +363,74 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24F5415E22E88DDE00FB0CEE /* Sources */ = {
+		247330AE22E9E58A006FDC50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2473305822E98EAD006FDC50 /* Transaction.swift in Sources */,
-				2473305D22E98EAD006FDC50 /* DeregistrationRequest.swift in Sources */,
-				2473304322E98EAD006FDC50 /* TagsEnum.swift in Sources */,
-				2473305122E98EAD006FDC50 /* Version.swift in Sources */,
-				2473307522E9A30B006FDC50 /* UAFMessage.swift in Sources */,
-				2473305622E98EAD006FDC50 /* AuthenticatorSignAssertion.swift in Sources */,
-				2473305722E98EAD006FDC50 /* OperationHeader.swift in Sources */,
-				2473306422E98EF9006FDC50 /* UIDeviceExtension.swift in Sources */,
-				2473304622E98EAD006FDC50 /* Hash.swift in Sources */,
-				2473306222E98EAD006FDC50 /* TrustedFacetsService.swift in Sources */,
-				2473305E22E98EAD006FDC50 /* Authentication.swift in Sources */,
-				2473306122E98EAD006FDC50 /* FidoClient.swift in Sources */,
-				2473304C22E98EAD006FDC50 /* RegistrationRequest.swift in Sources */,
-				2473304822E98EAD006FDC50 /* UnsignedUtil.swift in Sources */,
-				2473304922E98EAD006FDC50 /* Utils.swift in Sources */,
-				2473305222E98EAD006FDC50 /* AuthenticationResponse.swift in Sources */,
-				2473304722E98EAD006FDC50 /* FidoClientError.swift in Sources */,
-				2473305522E98EAD006FDC50 /* ChannelBinding.swift in Sources */,
-				2473305922E98EAD006FDC50 /* DeregisterAuthenticator.swift in Sources */,
-				2473305022E98EAD006FDC50 /* FinalChallengeParams.swift in Sources */,
-				2473305B22E98EAD006FDC50 /* AuthenticationRequest.swift in Sources */,
-				2473305422E98EAD006FDC50 /* Extension.swift in Sources */,
-				2473305A22E98EAD006FDC50 /* RegistrationResponse.swift in Sources */,
-				2473306822E98FB7006FDC50 /* StringExtension.swift in Sources */,
-				2473304E22E98EAD006FDC50 /* MatchCriteria.swift in Sources */,
-				2473307722E9AF46006FDC50 /* UafProtocolRequest.swift in Sources */,
-				2473305322E98EAD006FDC50 /* RgbPalletteEntry.swift in Sources */,
-				2473304422E98EAD006FDC50 /* EllipticCurveKeyPair.swift in Sources */,
-				2473304D22E98EAD006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift in Sources */,
-				2473304522E98EAD006FDC50 /* Storage.swift in Sources */,
-				2473306622E98F57006FDC50 /* DataExtension.swift in Sources */,
-				2473305F22E98EAD006FDC50 /* Deregistration.swift in Sources */,
-				2473304A22E98EAD006FDC50 /* TrustedFacets.swift in Sources */,
-				2473305C22E98EAD006FDC50 /* Operation.swift in Sources */,
-				2473304F22E98EAD006FDC50 /* Policy.swift in Sources */,
-				2473306022E98EAD006FDC50 /* Registration.swift in Sources */,
-				2473304B22E98EAD006FDC50 /* AuthenticatorRegistrationAssertion.swift in Sources */,
+				247330F822E9E5C8006FDC50 /* TagsEnum.swift in Sources */,
+				247330FB22E9E5C8006FDC50 /* Hash.swift in Sources */,
+				2473310122E9E5C8006FDC50 /* StringExtension.swift in Sources */,
+				2473311722E9E5C8006FDC50 /* DeregistrationRequest.swift in Sources */,
+				2473310022E9E5C8006FDC50 /* Utils.swift in Sources */,
+				2473310522E9E5C8006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift in Sources */,
+				247330FD22E9E5C8006FDC50 /* UnsignedUtil.swift in Sources */,
+				2473310422E9E5C8006FDC50 /* RegistrationRequest.swift in Sources */,
+				2473311B22E9E5C8006FDC50 /* FidoClient.swift in Sources */,
+				2473310722E9E5C8006FDC50 /* Policy.swift in Sources */,
+				2473310922E9E5C8006FDC50 /* FinalChallengeParams.swift in Sources */,
+				2473311022E9E5C8006FDC50 /* OperationHeader.swift in Sources */,
+				2473310322E9E5C8006FDC50 /* AuthenticatorRegistrationAssertion.swift in Sources */,
+				247330FC22E9E5C8006FDC50 /* FidoClientError.swift in Sources */,
+				2473310622E9E5C8006FDC50 /* MatchCriteria.swift in Sources */,
+				2473311322E9E5C8006FDC50 /* DeregisterAuthenticator.swift in Sources */,
+				2473311622E9E5C8006FDC50 /* Operation.swift in Sources */,
+				2473310222E9E5C8006FDC50 /* TrustedFacets.swift in Sources */,
+				2473310A22E9E5C8006FDC50 /* Version.swift in Sources */,
+				2473310822E9E5C8006FDC50 /* UAFMessage.swift in Sources */,
+				2473311C22E9E5C8006FDC50 /* TrustedFacetsService.swift in Sources */,
+				2473311222E9E5C8006FDC50 /* UafProtocolRequest.swift in Sources */,
+				2473310D22E9E5C8006FDC50 /* Extension.swift in Sources */,
+				2473311522E9E5C8006FDC50 /* AuthenticationRequest.swift in Sources */,
+				247330FE22E9E5C8006FDC50 /* UIDeviceExtension.swift in Sources */,
+				2473311A22E9E5C8006FDC50 /* Registration.swift in Sources */,
+				2473311422E9E5C8006FDC50 /* RegistrationResponse.swift in Sources */,
+				2473311122E9E5C8006FDC50 /* Transaction.swift in Sources */,
+				247330FF22E9E5C8006FDC50 /* DataExtension.swift in Sources */,
+				247330F922E9E5C8006FDC50 /* EllipticCurveKeyPair.swift in Sources */,
+				2473311922E9E5C8006FDC50 /* Deregistration.swift in Sources */,
+				2473310B22E9E5C8006FDC50 /* AuthenticationResponse.swift in Sources */,
+				247330FA22E9E5C8006FDC50 /* Storage.swift in Sources */,
+				2473310C22E9E5C8006FDC50 /* RgbPalletteEntry.swift in Sources */,
+				2473310F22E9E5C8006FDC50 /* AuthenticatorSignAssertion.swift in Sources */,
+				2473310E22E9E5C8006FDC50 /* ChannelBinding.swift in Sources */,
+				2473311822E9E5C8006FDC50 /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24F5416722E88DDE00FB0CEE /* Sources */ = {
+		247330B722E9E58B006FDC50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F5417122E88DDE00FB0CEE /* fidouafclientiOSTests.swift in Sources */,
+				247330C122E9E58B006FDC50 /* FidoUafClientiOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		24F5416E22E88DDE00FB0CEE /* PBXTargetDependency */ = {
+		247330BE22E9E58B006FDC50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 24F5416122E88DDE00FB0CEE /* fidouafclientiOS */;
-			targetProxy = 24F5416D22E88DDE00FB0CEE /* PBXContainerItemProxy */;
+			target = 247330B122E9E58A006FDC50 /* FidoUafClientiOS */;
+			targetProxy = 247330BD22E9E58B006FDC50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2473306D22E99B8E006FDC50 /* fidouafclient.strings */ = {
+		2473312122E9E608006FDC50 /* fidouafclient.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2473306C22E99B8E006FDC50 /* en */,
-				2473306F22E99BED006FDC50 /* de */,
+				2473312022E9E608006FDC50 /* en */,
+				2473312422E9E66C006FDC50 /* de */,
 			);
 			name = fidouafclient.strings;
 			sourceTree = "<group>";
@@ -438,7 +438,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		24F5417422E88DDE00FB0CEE /* Debug */ = {
+		247330C422E9E58B006FDC50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -503,7 +503,7 @@
 			};
 			name = Debug;
 		};
-		24F5417522E88DDE00FB0CEE /* Release */ = {
+		247330C522E9E58B006FDC50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -562,7 +562,7 @@
 			};
 			name = Release;
 		};
-		24F5417722E88DDE00FB0CEE /* Debug */ = {
+		247330C722E9E58B006FDC50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -572,7 +572,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = fidouafclientiOS/Info.plist;
+				INFOPLIST_FILE = FidoUafClientiOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -580,15 +580,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.fidouafclientiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientiOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		24F5417822E88DDE00FB0CEE /* Release */ = {
+		247330C822E9E58B006FDC50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -598,7 +598,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = fidouafclientiOS/Info.plist;
+				INFOPLIST_FILE = FidoUafClientiOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,46 +606,46 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.fidouafclientiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientiOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		24F5417A22E88DDE00FB0CEE /* Debug */ = {
+		247330CA22E9E58B006FDC50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MRP84G73F;
-				INFOPLIST_FILE = fidouafclientiOSTests/Info.plist;
+				INFOPLIST_FILE = FidoUafClientiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.fidouafclientiOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		24F5417B22E88DDE00FB0CEE /* Release */ = {
+		247330CB22E9E58B006FDC50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MRP84G73F;
-				INFOPLIST_FILE = fidouafclientiOSTests/Info.plist;
+				INFOPLIST_FILE = FidoUafClientiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.fidouafclientiOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -655,34 +655,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24F5415C22E88DDE00FB0CEE /* Build configuration list for PBXProject "fidouafclientiOS" */ = {
+		247330AC22E9E58A006FDC50 /* Build configuration list for PBXProject "FidoUafClientiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24F5417422E88DDE00FB0CEE /* Debug */,
-				24F5417522E88DDE00FB0CEE /* Release */,
+				247330C422E9E58B006FDC50 /* Debug */,
+				247330C522E9E58B006FDC50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24F5417622E88DDE00FB0CEE /* Build configuration list for PBXNativeTarget "fidouafclientiOS" */ = {
+		247330C622E9E58B006FDC50 /* Build configuration list for PBXNativeTarget "FidoUafClientiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24F5417722E88DDE00FB0CEE /* Debug */,
-				24F5417822E88DDE00FB0CEE /* Release */,
+				247330C722E9E58B006FDC50 /* Debug */,
+				247330C822E9E58B006FDC50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24F5417922E88DDE00FB0CEE /* Build configuration list for PBXNativeTarget "fidouafclientiOSTests" */ = {
+		247330C922E9E58B006FDC50 /* Build configuration list for PBXNativeTarget "FidoUafClientiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24F5417A22E88DDE00FB0CEE /* Debug */,
-				24F5417B22E88DDE00FB0CEE /* Release */,
+				247330CA22E9E58B006FDC50 /* Debug */,
+				247330CB22E9E58B006FDC50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 24F5415922E88DDE00FB0CEE /* Project object */;
+	rootObject = 247330A922E9E58A006FDC50 /* Project object */;
 }

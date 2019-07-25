@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:fidouafclientiOS.xcodeproj">
+      location = "self:FidoUafClientiOS.xcodeproj">
    </FileRef>
 </Workspace>
