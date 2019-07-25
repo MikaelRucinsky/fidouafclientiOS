@@ -2,8 +2,8 @@ import Foundation
 
 public struct ChannelBinding: Codable {
 
-    let serverEndPoint: String?
-    let tlsServerCertificate: String?
-    let tlsUnique: String?
-    let cid_pubKey: String?
+    public let serverEndPoint: String?
+    public let tlsServerCertificate: String?
+    public let tlsUnique: String?
+    public let cid_pubKey: String?
 }
