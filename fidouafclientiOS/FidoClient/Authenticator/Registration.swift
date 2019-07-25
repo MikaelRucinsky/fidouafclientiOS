@@ -45,7 +45,7 @@ class Registration {
     
     private func getOperationPrompt() -> String {
         var operationPrompt = ""
-        if let bundle = Bundle(identifier: "io.hanko.fidouafclientiOS") {
+        if let bundle = Bundle(identifier: "io.hanko.FidoUafClientiOS") {
             operationPrompt = NSLocalizedString("biomentryOperationPromptReg", tableName: "fidouafclient", bundle: bundle, value: "", comment: "")
         }
         let overrideString = NSLocalizedString("biomentryOperationPromptReg", comment: "")

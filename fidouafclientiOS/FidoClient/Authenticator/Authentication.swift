@@ -60,7 +60,7 @@ class Authentication {
     
     private func getOperationPrompt() -> String {
         var operationPrompt = "s"
-        if let bundle = Bundle(identifier: "io.hanko.fidouafclientiOS") {
+        if let bundle = Bundle(identifier: "io.hanko.FidoUafClientiOS") {
             operationPrompt = NSLocalizedString("biomentryOperationPromptAuth", tableName: "fidouafclient", bundle: bundle, value: "", comment: "")
         }
         let overrideString = NSLocalizedString("biomentryOperationPromptAuth", comment: "")

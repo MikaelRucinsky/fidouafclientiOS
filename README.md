@@ -11,7 +11,7 @@ FIDO UAF Client & Authenticator for iOS by Hanko.
 To integrate FidoUafClientiOS into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "teamhanko/fidouafclientiOS" == 0.1.0
+github "teamhanko/fidouafclientiOS" == 0.1.1
 ```
 
 ## Configuration
