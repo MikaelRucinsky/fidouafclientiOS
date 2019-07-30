@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FidoUafClientiOS"
-  s.version      = "0.1.5"
+  s.version      = "0.1.7"
   s.summary      = "A FIDO UAF Client for iOS."
   s.description  = <<-DESC
   A FIDO Client for iOS which implements the UAF specification.
