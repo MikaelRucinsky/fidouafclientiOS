@@ -59,9 +59,16 @@ class Authentication {
     }
     
     private func getOperationPrompt() -> String {
-        var operationPrompt = "s"
+        var operationPrompt = ""
+        // used if carthage
         if let bundle = Bundle(identifier: "io.hanko.FidoUafClientiOS") {
             operationPrompt = NSLocalizedString("biomentryOperationPromptAuth", tableName: "fidouafclient", bundle: bundle, value: "", comment: "")
+        }
+        // used if cocoapods
+        if let path = Bundle(for: Authentication.self).path(forResource: "io.hanko.FidoUafClientiOS", ofType: "bundle") {
+            if let bundle = Bundle(path: path) {
+                operationPrompt = NSLocalizedString("biomentryOperationPromptAuth", tableName: "fidouafclient", bundle: bundle, value: "", comment: "")
+            }
         }
         let overrideString = NSLocalizedString("biomentryOperationPromptAuth", comment: "")
         if (overrideString != "biomentryOperationPromptAuth") {
