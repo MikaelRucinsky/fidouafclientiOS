@@ -14,6 +14,14 @@ To integrate FidoUafClientiOS into your Xcode project using Carthage, specify it
 github "teamhanko/fidouafclientiOS" == 0.1.9
 ```
 
+### CocoaPods
+
+To integrate FidoUafClientiOS into your Xcode project using CocoaPods, specify it in your Podfile:
+
+```
+pod 'FidoUafClientiOS', '0.1.9'
+```
+
 ## Configuration
 
 FidoUafClientiOS uses FaceID, so you must define `NSFaceIDUsageDescription` in your `Info.plist`.
@@ -21,6 +29,7 @@ FidoUafClientiOS uses FaceID, so you must define `NSFaceIDUsageDescription` in y
 ### OperationPrompts
 
 The FidoUafClientiOS uses default values to display `kSecUseOperationPrompt` when using the private keys.
+The default values are localized to English and German.
 To override the default values just add the keys `biomentryOperationPromptReg` and `biomentryOperationPromptAuth` to your projects `Localizable.strings`.
 
 > **Note:** If a request contains a transaction the `biomentryOperationPromptAuth` will be overriden with the transaction content.
