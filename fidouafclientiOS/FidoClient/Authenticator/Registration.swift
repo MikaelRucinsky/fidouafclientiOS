@@ -50,7 +50,7 @@ class Registration {
             operationPrompt = NSLocalizedString("biomentryOperationPromptReg", tableName: "fidouafclient", bundle: bundle, value: "", comment: "")
         }
         // used if cocoapods
-        if let path = Bundle(for: Authentication.self).path(forResource: "io.hanko.FidoUafClientiOS", ofType: "bundle") {
+        if let path = Bundle(for: Registration.self).path(forResource: "io_hanko_fidouafclientios", ofType: "bundle") {
             if let bundle = Bundle(path: path) {
                 operationPrompt = NSLocalizedString("biomentryOperationPromptReg", tableName: "fidouafclient", bundle: bundle, value: "", comment: "")
             }

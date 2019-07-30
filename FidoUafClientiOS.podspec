@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FidoUafClientiOS"
-  s.version      = "0.1.8"
+  s.version      = "0.1.9"
   s.summary      = "A FIDO UAF Client for iOS."
   s.description  = <<-DESC
   A FIDO Client for iOS which implements the UAF specification.
@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/teamhanko/fidouafclientiOS.git", :tag => "#{s.version}" }
 
   s.source_files  = "FidoUafClientiOS/**/*.{h,m,swift}"
-  s.ios.resource_bundle = { "io.hanko.FidoUafClientiOS" => "FidoUafClientiOS/**/*.{strings}" }
+  s.resource_bundles = { 
+    'io_hanko_fidouafclientios' => [ 'FidoUafClientiOS/**/*.{strings}' ]
+  }
   s.public_header_files = "FidoUafClientiOS/**/*.h"
 
 end
