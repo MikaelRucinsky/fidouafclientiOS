@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/teamhanko/fidouafclientiOS.git", :tag => "#{s.version}" }
 
-  s.source_files  = "FidoUafClientiOS/**/*.{h,m,swift,strings}"
+  s.source_files  = "FidoUafClientiOS/**/*.{h,m,swift}"
+  s.ios.resource_bundle = { "io.hanko.FidoUafClientiOS" => "FidoUafClientiOS/**/*.{strings}" }
   s.public_header_files = "FidoUafClientiOS/**/*.h"
 
 end
