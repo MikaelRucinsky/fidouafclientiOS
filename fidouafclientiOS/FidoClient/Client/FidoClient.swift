@@ -51,4 +51,54 @@ public class FidoClient {
         }
         return nil
     }
+    
+    public static func process(url: URL) -> URL? {
+        do {
+            let xCallbackUrlData = try url.extractXCallbackUrlData()
+            guard xCallbackUrlData != nil else { return nil }
+            if let json = xCallbackUrlData!.json {
+                let uafUrlMessage = try decode(XCallbackUafOperationRequestData.self, from: json)
+                let uafMessage = try decode(UAFMessage.self, from: uafUrlMessage.message)
+                let channelBindings = try decode(ChannelBinding.self, from: uafUrlMessage.channelBindings)
+                
+                let result = try process(uafMessage: uafMessage, channelBinding: channelBindings)
+                
+                var returnUrl = URLComponents(string: xCallbackUrlData!.xSuccessUrl)
+                var queryItems: [URLQueryItem] = []
+                if let state = xCallbackUrlData!.state {
+                    queryItems.append(URLQueryItem(name: "state", value: state))
+                }
+                if let resultJson = result {
+                    let resultValue = XCallbackUrlUafOperationResultData(errorCode: 0, message: String(describing: try JSONEncoder().encode(resultJson))) // TODO: change errorCode
+                    let unencryptedValue = try JSONEncoder().encode(queryValue)
+                    queryItems.append(URLQueryItem(name: "json", value: try JSONEncoder().encode(queryValue).base64UrlWithoutPaddingEncodedString(removeBackslash: true))) // TODO: encrypt result and base64 encode it
+                }
+                
+                returnUrl?.queryItems = queryItems
+                return returnUrl?.url
+            }
+        } catch {
+            NSLog("\(error)")
+        }
+        
+        return nil
+    }
+    
+    private static func decode<T>(_ type: T.Type, from string: String) throws -> T where T : Decodable {
+        guard let data = string.data(using: .utf8) else { throw InternalError.Default("Data could not be crated from string") }
+        let decoder = JSONDecoder()
+        return try decoder.decode(type, from: data)
+    }
+    
+    private static func processDiscoveryRequest() {
+        
+    }
+    
+    private static func processCheckPolicyRequest() {
+        
+    }
+    
+    private static func processUafOperationCompletionStatus() {
+        
+    }
 }

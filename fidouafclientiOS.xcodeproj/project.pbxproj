@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243B2461237C0B0900BE86AD /* XCallbackUrlData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B2460237C0B0900BE86AD /* XCallbackUrlData.swift */; };
 		247330BC22E9E58B006FDC50 /* FidoUafClientiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247330B222E9E58A006FDC50 /* FidoUafClientiOS.framework */; };
 		247330C122E9E58B006FDC50 /* FidoUafClientiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330C022E9E58B006FDC50 /* FidoUafClientiOSTests.swift */; };
 		247330C322E9E58B006FDC50 /* FidoUafClientiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 247330B522E9E58B006FDC50 /* FidoUafClientiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,6 +49,9 @@
 		2473311B22E9E5C8006FDC50 /* FidoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330F522E9E5C8006FDC50 /* FidoClient.swift */; };
 		2473311C22E9E5C8006FDC50 /* TrustedFacetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247330F722E9E5C8006FDC50 /* TrustedFacetsService.swift */; };
 		2473311F22E9E608006FDC50 /* fidouafclient.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2473312122E9E608006FDC50 /* fidouafclient.strings */; };
+		24C1C52823CDF89F0065479A /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1C52723CDF89F0065479A /* URLExtension.swift */; };
+		24C1C52A23CDF9450065479A /* UAFType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1C52923CDF9450065479A /* UAFType.swift */; };
+		24C1C53223CF1DDA0065479A /* InternalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1C53123CF1DDA0065479A /* InternalError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		243B2460237C0B0900BE86AD /* XCallbackUrlData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XCallbackUrlData.swift; path = FidoUafClientiOS/FidoClient/Model/Conformance/XCallbackUrlData.swift; sourceTree = SOURCE_ROOT; };
 		247330B222E9E58A006FDC50 /* FidoUafClientiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FidoUafClientiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		247330B522E9E58B006FDC50 /* FidoUafClientiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FidoUafClientiOS.h; sourceTree = "<group>"; };
 		247330B622E9E58B006FDC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +111,9 @@
 		247330F722E9E5C8006FDC50 /* TrustedFacetsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustedFacetsService.swift; sourceTree = "<group>"; };
 		2473312022E9E608006FDC50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/fidouafclient.strings; sourceTree = "<group>"; };
 		2473312422E9E66C006FDC50 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/fidouafclient.strings; sourceTree = "<group>"; };
+		24C1C52723CDF89F0065479A /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URLExtension.swift; path = fidouafclientiOS/FidoClient/Util/URLExtension.swift; sourceTree = SOURCE_ROOT; };
+		24C1C52923CDF9450065479A /* UAFType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UAFType.swift; path = fidouafclientiOS/FidoClient/Model/UAFType.swift; sourceTree = SOURCE_ROOT; };
+		24C1C53123CF1DDA0065479A /* InternalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InternalError.swift; path = fidouafclientiOS/FidoClient/Model/InternalError.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +206,7 @@
 				247330D622E9E5C8006FDC50 /* DataExtension.swift */,
 				247330D722E9E5C8006FDC50 /* Utils.swift */,
 				247330D822E9E5C8006FDC50 /* StringExtension.swift */,
+				24C1C52723CDF89F0065479A /* URLExtension.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -205,6 +214,7 @@
 		247330D922E9E5C8006FDC50 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				24C1C52E23CF1A270065479A /* Conformance */,
 				247330DA22E9E5C8006FDC50 /* TrustedFacets.swift */,
 				247330DB22E9E5C8006FDC50 /* AuthenticatorRegistrationAssertion.swift */,
 				247330DC22E9E5C8006FDC50 /* RegistrationRequest.swift */,
@@ -227,6 +237,8 @@
 				247330ED22E9E5C8006FDC50 /* AuthenticationRequest.swift */,
 				247330EE22E9E5C8006FDC50 /* Operation.swift */,
 				247330EF22E9E5C8006FDC50 /* DeregistrationRequest.swift */,
+				24C1C52923CDF9450065479A /* UAFType.swift */,
+				24C1C53123CF1DDA0065479A /* InternalError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -255,6 +267,14 @@
 				247330F722E9E5C8006FDC50 /* TrustedFacetsService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		24C1C52E23CF1A270065479A /* Conformance */ = {
+			isa = PBXGroup;
+			children = (
+				243B2460237C0B0900BE86AD /* XCallbackUrlData.swift */,
+			);
+			path = Conformance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,7 +345,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 247330AC22E9E58A006FDC50 /* Build configuration list for PBXProject "FidoUafClientiOS" */;
+			buildConfigurationList = 247330AC22E9E58A006FDC50 /* Build configuration list for PBXProject "fidouafclientiOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -372,6 +392,7 @@
 				2473310122E9E5C8006FDC50 /* StringExtension.swift in Sources */,
 				2473311722E9E5C8006FDC50 /* DeregistrationRequest.swift in Sources */,
 				2473310022E9E5C8006FDC50 /* Utils.swift in Sources */,
+				24C1C53223CF1DDA0065479A /* InternalError.swift in Sources */,
 				2473310522E9E5C8006FDC50 /* DisplayPNGCharacteristicsDescriptor.swift in Sources */,
 				247330FD22E9E5C8006FDC50 /* UnsignedUtil.swift in Sources */,
 				2473310422E9E5C8006FDC50 /* RegistrationRequest.swift in Sources */,
@@ -381,12 +402,15 @@
 				2473311022E9E5C8006FDC50 /* OperationHeader.swift in Sources */,
 				2473310322E9E5C8006FDC50 /* AuthenticatorRegistrationAssertion.swift in Sources */,
 				247330FC22E9E5C8006FDC50 /* FidoClientError.swift in Sources */,
+				24C1C52823CDF89F0065479A /* URLExtension.swift in Sources */,
 				2473310622E9E5C8006FDC50 /* MatchCriteria.swift in Sources */,
 				2473311322E9E5C8006FDC50 /* DeregisterAuthenticator.swift in Sources */,
 				2473311622E9E5C8006FDC50 /* Operation.swift in Sources */,
 				2473310222E9E5C8006FDC50 /* TrustedFacets.swift in Sources */,
+				243B2461237C0B0900BE86AD /* XCallbackUrlData.swift in Sources */,
 				2473310A22E9E5C8006FDC50 /* Version.swift in Sources */,
 				2473310822E9E5C8006FDC50 /* UAFMessage.swift in Sources */,
+				24C1C52A23CDF9450065479A /* UAFType.swift in Sources */,
 				2473311C22E9E5C8006FDC50 /* TrustedFacetsService.swift in Sources */,
 				2473311222E9E5C8006FDC50 /* UafProtocolRequest.swift in Sources */,
 				2473310D22E9E5C8006FDC50 /* Extension.swift in Sources */,
@@ -655,7 +679,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		247330AC22E9E58A006FDC50 /* Build configuration list for PBXProject "FidoUafClientiOS" */ = {
+		247330AC22E9E58A006FDC50 /* Build configuration list for PBXProject "fidouafclientiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				247330C422E9E58B006FDC50 /* Debug */,
