@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243B243123744F1100BE86AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B243023744F1100BE86AD /* AppDelegate.swift */; };
+		243B243323744F1100BE86AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B243223744F1100BE86AD /* SceneDelegate.swift */; };
+		243B243523744F1100BE86AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B243423744F1100BE86AD /* ViewController.swift */; };
+		243B243823744F1100BE86AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243B243623744F1100BE86AD /* Main.storyboard */; };
+		243B243A23744F1200BE86AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243B243923744F1200BE86AD /* Assets.xcassets */; };
+		243B243D23744F1200BE86AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243B243B23744F1200BE86AD /* LaunchScreen.storyboard */; };
+		243B244823744F1300BE86AD /* FidoUafClientExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B244723744F1300BE86AD /* FidoUafClientExampleTests.swift */; };
+		243B245323744F1300BE86AD /* FidoUafClientExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B245223744F1300BE86AD /* FidoUafClientExampleUITests.swift */; };
+		24C1C52B23CE12F10065479A /* Pods_FidoUafClientExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A792EEB35CE4C31D96D6BD2A /* Pods_FidoUafClientExample.framework */; };
+		24C1C52C23CE12F10065479A /* Pods_FidoUafClientExample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A792EEB35CE4C31D96D6BD2A /* Pods_FidoUafClientExample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		243B244423744F1300BE86AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 243B242523744F1100BE86AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 243B242C23744F1100BE86AD;
+			remoteInfo = FidoUafClientExample;
+		};
+		243B244F23744F1300BE86AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 243B242523744F1100BE86AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 243B242C23744F1100BE86AD;
+			remoteInfo = FidoUafClientExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24C1C52D23CE12F10065479A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				24C1C52C23CE12F10065479A /* Pods_FidoUafClientExample.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E2EB9242E4A1CA9A62CB3BB /* Pods-FidoUafClientExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FidoUafClientExample.debug.xcconfig"; path = "Target Support Files/Pods-FidoUafClientExample/Pods-FidoUafClientExample.debug.xcconfig"; sourceTree = "<group>"; };
+		243B242D23744F1100BE86AD /* FidoUafClientExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FidoUafClientExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		243B243023744F1100BE86AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		243B243223744F1100BE86AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		243B243423744F1100BE86AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		243B243723744F1100BE86AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		243B243923744F1200BE86AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		243B243C23744F1200BE86AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		243B243E23744F1200BE86AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243B244323744F1300BE86AD /* FidoUafClientExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidoUafClientExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		243B244723744F1300BE86AD /* FidoUafClientExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidoUafClientExampleTests.swift; sourceTree = "<group>"; };
+		243B244923744F1300BE86AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243B244E23744F1300BE86AD /* FidoUafClientExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidoUafClientExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		243B245223744F1300BE86AD /* FidoUafClientExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidoUafClientExampleUITests.swift; sourceTree = "<group>"; };
+		243B245423744F1300BE86AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A792EEB35CE4C31D96D6BD2A /* Pods_FidoUafClientExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FidoUafClientExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C229C081642FED963F015E62 /* Pods-FidoUafClientExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FidoUafClientExample.release.xcconfig"; path = "Target Support Files/Pods-FidoUafClientExample/Pods-FidoUafClientExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		243B242A23744F1100BE86AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C1C52B23CE12F10065479A /* Pods_FidoUafClientExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		243B244023744F1300BE86AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		243B244B23744F1300BE86AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8AC53AB61EBE416DE16A8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E2EB9242E4A1CA9A62CB3BB /* Pods-FidoUafClientExample.debug.xcconfig */,
+				C229C081642FED963F015E62 /* Pods-FidoUafClientExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		243B242423744F1100BE86AD = {
+			isa = PBXGroup;
+			children = (
+				243B242F23744F1100BE86AD /* FidoUafClientExample */,
+				243B244623744F1300BE86AD /* FidoUafClientExampleTests */,
+				243B245123744F1300BE86AD /* FidoUafClientExampleUITests */,
+				243B242E23744F1100BE86AD /* Products */,
+				0F8AC53AB61EBE416DE16A8F /* Pods */,
+				568BD2231DD22F224E1B46DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		243B242E23744F1100BE86AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				243B242D23744F1100BE86AD /* FidoUafClientExample.app */,
+				243B244323744F1300BE86AD /* FidoUafClientExampleTests.xctest */,
+				243B244E23744F1300BE86AD /* FidoUafClientExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		243B242F23744F1100BE86AD /* FidoUafClientExample */ = {
+			isa = PBXGroup;
+			children = (
+				243B243023744F1100BE86AD /* AppDelegate.swift */,
+				243B243223744F1100BE86AD /* SceneDelegate.swift */,
+				243B243423744F1100BE86AD /* ViewController.swift */,
+				243B243623744F1100BE86AD /* Main.storyboard */,
+				243B243923744F1200BE86AD /* Assets.xcassets */,
+				243B243B23744F1200BE86AD /* LaunchScreen.storyboard */,
+				243B243E23744F1200BE86AD /* Info.plist */,
+			);
+			path = FidoUafClientExample;
+			sourceTree = "<group>";
+		};
+		243B244623744F1300BE86AD /* FidoUafClientExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				243B244723744F1300BE86AD /* FidoUafClientExampleTests.swift */,
+				243B244923744F1300BE86AD /* Info.plist */,
+			);
+			path = FidoUafClientExampleTests;
+			sourceTree = "<group>";
+		};
+		243B245123744F1300BE86AD /* FidoUafClientExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				243B245223744F1300BE86AD /* FidoUafClientExampleUITests.swift */,
+				243B245423744F1300BE86AD /* Info.plist */,
+			);
+			path = FidoUafClientExampleUITests;
+			sourceTree = "<group>";
+		};
+		568BD2231DD22F224E1B46DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A792EEB35CE4C31D96D6BD2A /* Pods_FidoUafClientExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		243B242C23744F1100BE86AD /* FidoUafClientExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 243B245723744F1300BE86AD /* Build configuration list for PBXNativeTarget "FidoUafClientExample" */;
+			buildPhases = (
+				086DE69DE5A86768EBD82024 /* [CP] Check Pods Manifest.lock */,
+				243B242923744F1100BE86AD /* Sources */,
+				243B242A23744F1100BE86AD /* Frameworks */,
+				243B242B23744F1100BE86AD /* Resources */,
+				33485329D83A837C374ED27F /* [CP] Embed Pods Frameworks */,
+				24C1C52D23CE12F10065479A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FidoUafClientExample;
+			productName = FidoUafClientExample;
+			productReference = 243B242D23744F1100BE86AD /* FidoUafClientExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		243B244223744F1300BE86AD /* FidoUafClientExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 243B245A23744F1300BE86AD /* Build configuration list for PBXNativeTarget "FidoUafClientExampleTests" */;
+			buildPhases = (
+				243B243F23744F1300BE86AD /* Sources */,
+				243B244023744F1300BE86AD /* Frameworks */,
+				243B244123744F1300BE86AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				243B244523744F1300BE86AD /* PBXTargetDependency */,
+			);
+			name = FidoUafClientExampleTests;
+			productName = FidoUafClientExampleTests;
+			productReference = 243B244323744F1300BE86AD /* FidoUafClientExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		243B244D23744F1300BE86AD /* FidoUafClientExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 243B245D23744F1300BE86AD /* Build configuration list for PBXNativeTarget "FidoUafClientExampleUITests" */;
+			buildPhases = (
+				243B244A23744F1300BE86AD /* Sources */,
+				243B244B23744F1300BE86AD /* Frameworks */,
+				243B244C23744F1300BE86AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				243B245023744F1300BE86AD /* PBXTargetDependency */,
+			);
+			name = FidoUafClientExampleUITests;
+			productName = FidoUafClientExampleUITests;
+			productReference = 243B244E23744F1300BE86AD /* FidoUafClientExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		243B242523744F1100BE86AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Hanko;
+				TargetAttributes = {
+					243B242C23744F1100BE86AD = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					243B244223744F1300BE86AD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 243B242C23744F1100BE86AD;
+					};
+					243B244D23744F1300BE86AD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 243B242C23744F1100BE86AD;
+					};
+				};
+			};
+			buildConfigurationList = 243B242823744F1100BE86AD /* Build configuration list for PBXProject "FidoUafClientExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 243B242423744F1100BE86AD;
+			productRefGroup = 243B242E23744F1100BE86AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				243B242C23744F1100BE86AD /* FidoUafClientExample */,
+				243B244223744F1300BE86AD /* FidoUafClientExampleTests */,
+				243B244D23744F1300BE86AD /* FidoUafClientExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		243B242B23744F1100BE86AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243B243D23744F1200BE86AD /* LaunchScreen.storyboard in Resources */,
+				243B243A23744F1200BE86AD /* Assets.xcassets in Resources */,
+				243B243823744F1100BE86AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		243B244123744F1300BE86AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		243B244C23744F1300BE86AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		086DE69DE5A86768EBD82024 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FidoUafClientExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33485329D83A837C374ED27F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FidoUafClientExample/Pods-FidoUafClientExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FidoUafClientExample/Pods-FidoUafClientExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FidoUafClientExample/Pods-FidoUafClientExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		243B242923744F1100BE86AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243B243523744F1100BE86AD /* ViewController.swift in Sources */,
+				243B243123744F1100BE86AD /* AppDelegate.swift in Sources */,
+				243B243323744F1100BE86AD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		243B243F23744F1300BE86AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243B244823744F1300BE86AD /* FidoUafClientExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		243B244A23744F1300BE86AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243B245323744F1300BE86AD /* FidoUafClientExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		243B244523744F1300BE86AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 243B242C23744F1100BE86AD /* FidoUafClientExample */;
+			targetProxy = 243B244423744F1300BE86AD /* PBXContainerItemProxy */;
+		};
+		243B245023744F1300BE86AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 243B242C23744F1100BE86AD /* FidoUafClientExample */;
+			targetProxy = 243B244F23744F1300BE86AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		243B243623744F1100BE86AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				243B243723744F1100BE86AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		243B243B23744F1200BE86AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				243B243C23744F1200BE86AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		243B245523744F1300BE86AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		243B245623744F1300BE86AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		243B245823744F1300BE86AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2EB9242E4A1CA9A62CB3BB /* Pods-FidoUafClientExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MRP84G73F;
+				INFOPLIST_FILE = FidoUafClientExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		243B245923744F1300BE86AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C229C081642FED963F015E62 /* Pods-FidoUafClientExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MRP84G73F;
+				INFOPLIST_FILE = FidoUafClientExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		243B245B23744F1300BE86AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MRP84G73F;
+				INFOPLIST_FILE = FidoUafClientExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FidoUafClientExample.app/FidoUafClientExample";
+			};
+			name = Debug;
+		};
+		243B245C23744F1300BE86AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MRP84G73F;
+				INFOPLIST_FILE = FidoUafClientExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FidoUafClientExample.app/FidoUafClientExample";
+			};
+			name = Release;
+		};
+		243B245E23744F1300BE86AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MRP84G73F;
+				INFOPLIST_FILE = FidoUafClientExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FidoUafClientExample;
+			};
+			name = Debug;
+		};
+		243B245F23744F1300BE86AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MRP84G73F;
+				INFOPLIST_FILE = FidoUafClientExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hanko.FidoUafClientExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FidoUafClientExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		243B242823744F1100BE86AD /* Build configuration list for PBXProject "FidoUafClientExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				243B245523744F1300BE86AD /* Debug */,
+				243B245623744F1300BE86AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		243B245723744F1300BE86AD /* Build configuration list for PBXNativeTarget "FidoUafClientExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				243B245823744F1300BE86AD /* Debug */,
+				243B245923744F1300BE86AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		243B245A23744F1300BE86AD /* Build configuration list for PBXNativeTarget "FidoUafClientExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				243B245B23744F1300BE86AD /* Debug */,
+				243B245C23744F1300BE86AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		243B245D23744F1300BE86AD /* Build configuration list for PBXNativeTarget "FidoUafClientExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				243B245E23744F1300BE86AD /* Debug */,
+				243B245F23744F1300BE86AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 243B242523744F1100BE86AD /* Project object */;
+}
