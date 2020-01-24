@@ -7,14 +7,14 @@ class Registration {
 
     init() {}
 
-    func process(regRequest: RegistrationRequest, finalChallenge: String) -> AuthenticatorRegistrationAssertion? {
+    func process(regRequest: RegistrationRequest, finalChallenge: String, appId: String) -> AuthenticatorRegistrationAssertion? {
         do {
             
-            let keyId = Utils.generateKeyID(appID: regRequest.header.appID)!
+            let keyId = Utils.generateKeyID(appID: appId)!
             let internKeyId = keyId.data(using: .utf8)!.base64UrlWithoutPaddingEncodedString(removeBackslash: false)
             let ecHelper = EllipticCurveKeyPair.Helper(
-                    publicLabel: Utils.generatePublicLabel(appId: regRequest.header.appID, keyId: internKeyId),
-                    privateLabel: Utils.generatePrivateLabel(appId: regRequest.header.appID, keyId: internKeyId),
+                    publicLabel: Utils.generatePublicLabel(appId: appId, keyId: internKeyId),
+                    privateLabel: Utils.generatePrivateLabel(appId: appId, keyId: internKeyId),
                     operationPrompt: getOperationPrompt(),
                     sha256: Hash.sha256,
                     accessControl: try! EllipticCurveKeyPair.Helper.createAccessControl(protection: kSecAttrAccessibleWhenUnlockedThisDeviceOnly, flags: Utils.generateAccessControlCreateFlags()))
@@ -30,7 +30,7 @@ class Registration {
             assertion.append(contentsOf: uafV1Krd)
             assertion.append(contentsOf: attestationTag)
 
-            Storage.storeKeyId(appId: regRequest.header.appID, keyId: internKeyId)
+            Storage.storeKeyId(appId: appId, keyId: internKeyId)
 
             return AuthenticatorRegistrationAssertion(
                     assertionScheme: "UAFV1TLV",
@@ -100,7 +100,7 @@ class Registration {
         var data = Data()
         data.append(contentsOf: UnsignedUtil.encodeInt(int: TagsEnum.TAG_AAID.rawValue))
 
-        let value = "A4A4#0002".data(using: .utf8)!
+        let value = AuthenticatorMetadata.authenticator.aaid.data(using: .utf8)!
         data.append(contentsOf: UnsignedUtil.encodeInt(int: value.count))
         data.append(contentsOf: value)
 

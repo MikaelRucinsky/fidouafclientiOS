@@ -1,6 +1,6 @@
 import Foundation
 
-struct Version: Codable {
+struct Version: Codable, Hashable {
 
     let major: Int
     let minor: Int

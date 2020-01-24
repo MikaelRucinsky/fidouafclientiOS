@@ -4,11 +4,11 @@ struct OperationHeader: Codable {
 
     let upv: Version
     let op: Operation
-    let appID: String
-    let serverData: String
-    let exts: [Extension]
+    let appID: String?
+    let serverData: String?
+    let exts: [Extension]?
 }
-
+/*
 extension OperationHeader {
     
     init(from decoder: Decoder) throws {
@@ -20,3 +20,4 @@ extension OperationHeader {
         exts = (try? values.decode([Extension].self, forKey: .exts)) ?? []
     }
 }
+*/

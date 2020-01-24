@@ -56,3 +56,17 @@ public struct XCallbackUrlUafOperationCompletionStatusRequestData: XCallbackUrlR
     let message: String
     let responseCode: CShort
 }
+
+// MARK: JWE-RESPONSE
+
+public struct XCallbackUrlJweHeader: Codable {
+    let alg: String
+    let enc: String
+}
+
+public struct XCallbackUrlJweResponse: Codable {
+    let unprotected: XCallbackUrlJweHeader
+    let iv: String
+    let ciphertext: String
+    let tag: String
+}

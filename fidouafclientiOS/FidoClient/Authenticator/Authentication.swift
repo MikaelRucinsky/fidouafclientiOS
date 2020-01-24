@@ -7,15 +7,15 @@ class Authentication {
 
     init() {}
 
-    func process(authRequest: AuthenticationRequest, finalChallenge: String) -> AuthenticatorSignAssertion? {
+    func process(authRequest: AuthenticationRequest, finalChallenge: String, appId: String) -> AuthenticatorSignAssertion? {
         do {
             let keyIds: [String] = authRequest.policy.accepted.flatMap { mcArray in
                 mcArray.flatMap { mc in
-                    mc.keyIDs.map { $0 }
+                    mc.keyIDs!.map { $0 } // TODO:
                 }
             }
 
-            let storedKeyIds = Storage.getKeyIds(appId: authRequest.header.appID)
+            let storedKeyIds = Storage.getKeyIds(appId: appId)
 
             let resolvedKeyIds = storedKeyIds.filter { keyIds.contains($0) }
             if (resolvedKeyIds.count <= 0) {
@@ -30,8 +30,8 @@ class Authentication {
             }
 
             let ecHelper = EllipticCurveKeyPair.Helper(
-                    publicLabel: Utils.generatePublicLabel(appId: authRequest.header.appID, keyId: resolvedKeyIds[0]),
-                    privateLabel: Utils.generatePrivateLabel(appId: authRequest.header.appID, keyId: resolvedKeyIds[0]),
+                    publicLabel: Utils.generatePublicLabel(appId: appId, keyId: resolvedKeyIds[0]),
+                    privateLabel: Utils.generatePrivateLabel(appId: appId, keyId: resolvedKeyIds[0]),
                     operationPrompt: operationPrompt,
                     sha256: Hash.sha256,
                     accessControl: try! EllipticCurveKeyPair.Helper.createAccessControl(protection: kSecAttrAccessibleWhenUnlockedThisDeviceOnly, flags: Utils.generateAccessControlCreateFlags()))
@@ -110,7 +110,7 @@ class Authentication {
         var data = Data()
         data.append(contentsOf: UnsignedUtil.encodeInt(int: TagsEnum.TAG_AAID.rawValue))
 
-        let value = "A4A4#0002".data(using: .utf8)!
+        let value = AuthenticatorMetadata.authenticator.aaid.data(using: .utf8)!
         data.append(contentsOf: UnsignedUtil.encodeInt(int: value.count))
         data.append(contentsOf: value)
 
