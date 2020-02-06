@@ -2,13 +2,13 @@ PODS:
   - CallbackURLKit (2.3.0):
     - CallbackURLKit/Core (= 2.3.0)
   - CallbackURLKit/Core (2.3.0)
-  - FidoUafClientiOS (0.1.9)
+  - FidoUafClientiOS (0.1.9):
+    - JOSESwift
   - JOSESwift (2.0.0)
 
 DEPENDENCIES:
   - CallbackURLKit
   - FidoUafClientiOS (from `../`)
-  - JOSESwift
 
 SPEC REPOS:
   trunk:
@@ -21,9 +21,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CallbackURLKit: a940d1b869c70e1fa700ea06f988ba2a8963dafb
-  FidoUafClientiOS: cf427672f49a228cf322cbc7cf37a0e0749b1386
+  FidoUafClientiOS: 8561d3395f593874f33726314f229b84821179cc
   JOSESwift: d6fb57919feb1b8667e2c68b8432623f744047ba
 
-PODFILE CHECKSUM: a87f628274fe253326e1d211ac8f4959a1cc49c6
+PODFILE CHECKSUM: 7da026a495a2a2b32d9ce800c79e8ec55d938ea6
 
 COCOAPODS: 1.8.4
