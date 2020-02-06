@@ -4,6 +4,12 @@ FIDO UAF Client & Authenticator Combo for iOS by Hanko.
 
 **Supported UAF versions:** `[1.0, 1.1]`
 
+## Breaking Changes
+
+### 0.x.x -> 1.x.x
+
+From 1.0.0 the keyIds are generated and stored in a different, not backwards compatible way. So all before generated keys are not known by the authenticator and can not be used anymore.
+
 ## Installation
 
 ### Carthage
