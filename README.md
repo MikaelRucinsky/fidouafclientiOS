@@ -2,7 +2,7 @@
 
 FIDO UAF Client & Authenticator Combo for iOS by Hanko.
 
-**Supported UAF versions:** `[1.0, 1.1]`
+**Supported UAF versions:** `[1.1]`
 
 ## Breaking Changes
 
