@@ -43,6 +43,8 @@ class ViewController: UIViewController {
             if let encodedMessage = try? JSONEncoder().encode(message) {
                 self.labelResult.text = String(data: encodedMessage, encoding: .utf8)
             }
+        } else {
+            self.labelResult.text = nil
         }
     }
 }
