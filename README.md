@@ -1,8 +1,8 @@
 # FIDO UAF Client & Authenticator
 
-FIDO UAF Client & Authenticator for iOS by Hanko.
+FIDO UAF Client & Authenticator Combo for iOS by Hanko.
 
-**Supported UAF versions:** 1.0
+**Supported UAF versions:** `[1.0, 1.1]`
 
 ## Installation
 
@@ -11,7 +11,7 @@ FIDO UAF Client & Authenticator for iOS by Hanko.
 To integrate FidoUafClientiOS into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "teamhanko/fidouafclientiOS" == 0.1.9
+github "teamhanko/fidouafclientiOS" == 1.0.0
 ```
 
 ### CocoaPods
@@ -19,7 +19,7 @@ github "teamhanko/fidouafclientiOS" == 0.1.9
 To integrate FidoUafClientiOS into your Xcode project using CocoaPods, specify it in your Podfile:
 
 ```
-pod 'FidoUafClientiOS', '0.1.9'
+pod 'FidoUafClientiOS', '1.0.0'
 ```
 
 ## Configuration
@@ -38,15 +38,14 @@ To override the default values just add the keys `biomentryOperationPromptReg` a
 
 ```swift
 let uafMessage = UAFMessage(uafProtocolMessage: "<fido-uaf-request>")
-let response = try FidoClient.process(uafMessage: uafMessage)
-if let uafResponse = response?.uafProtocolMessage {
-    // verify uafResponse
+FidoClient.process(uafMessage: uafMessage) { resultMessage, error in 
+	// send resultMessage to your Fido-Server
 }
 ```
 
-# License
+## License
 
-	Copyright 2019 Hanko
+	Copyright 2020 Hanko
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
