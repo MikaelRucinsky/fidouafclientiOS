@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
     // MARK: Actions
     @IBAction func register(_ sender: UIButton) {
-        FidoClient.process(uafMessage: UAFMessage(uafProtocolMessage: registrationRequest), skipTrustedFacetVerification: true) { resultMessage, error in
+        FidoClient.process(uafMessage: UAFMessage(uafProtocolMessage: registrationRequest)) { resultMessage, error in
             self.showResult(resultMessage: resultMessage, error: error)
         }
     }
