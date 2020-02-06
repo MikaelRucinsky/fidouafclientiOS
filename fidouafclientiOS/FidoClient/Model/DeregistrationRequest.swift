@@ -8,7 +8,7 @@ struct DeregistrationRequest: Codable {
 
 extension DeregistrationRequest {
     
-    static func toObject(string: String) -> [DeregistrationRequest?] {
+    static func toObject(string: String) -> [DeregistrationRequest] {
         if let data = string.data(using: .utf8) {
             do {
                 return try JSONDecoder().decode([DeregistrationRequest].self, from: data)

@@ -1,6 +1,6 @@
 import Foundation
 
-struct Authenticator {
+struct Authenticator: Codable {
     let title: String
     let aaid: String
     let description: String

@@ -9,12 +9,10 @@ class Registration {
 
     func process(regRequest: RegistrationRequest, finalChallenge: String, appId: String) -> AuthenticatorRegistrationAssertion? {
         do {
-            
             let keyId = Utils.generateKeyID(appID: appId)!
-            let internKeyId = keyId.data(using: .utf8)!.base64UrlWithoutPaddingEncodedString(removeBackslash: false)
             let ecHelper = EllipticCurveKeyPair.Helper(
-                    publicLabel: Utils.generatePublicLabel(appId: appId, keyId: internKeyId),
-                    privateLabel: Utils.generatePrivateLabel(appId: appId, keyId: internKeyId),
+                    publicLabel: Utils.generatePublicLabel(appId: appId, keyId: keyId),
+                    privateLabel: Utils.generatePrivateLabel(appId: appId, keyId: keyId),
                     operationPrompt: getOperationPrompt(),
                     sha256: Hash.sha256,
                     accessControl: try! EllipticCurveKeyPair.Helper.createAccessControl(protection: kSecAttrAccessibleWhenUnlockedThisDeviceOnly, flags: Utils.generateAccessControlCreateFlags()))
@@ -30,7 +28,11 @@ class Registration {
             assertion.append(contentsOf: uafV1Krd)
             assertion.append(contentsOf: attestationTag)
 
-            Storage.storeKeyId(appId: appId, keyId: internKeyId)
+//            Storage.storeKeyId(appId: appId, keyId: internKeyId)
+            
+            var userKeyIdDict = Storage.load(appId: appId) ?? [:]
+            userKeyIdDict.updateValue(keyId, forKey: regRequest.username)
+            Storage.store(appId: appId, dict: userKeyIdDict)
 
             return AuthenticatorRegistrationAssertion(
                     assertionScheme: "UAFV1TLV",
@@ -111,7 +113,7 @@ class Registration {
         var data = Data()
         data.append(contentsOf: UnsignedUtil.encodeInt(int: TagsEnum.TAG_KEYID.rawValue))
 
-        let value = keyId.data(using: .utf8)!
+        let value: Data = keyId.base64UrlWithoutPaddingDecoded()!
         data.append(contentsOf: UnsignedUtil.encodeInt(int: value.count))
         data.append(contentsOf: value)
 
@@ -155,11 +157,11 @@ class Registration {
         var data = Data()
         data.append(contentsOf: UnsignedUtil.encodeInt(int: TagsEnum.TAG_ASSERTION_INFO.rawValue))
         // all values in littleEndian-format
-        // 2 byte = Vendor assigned authenticator version
+        // 2 byte = Vendor assigned authenticator version => 1
         // 1 byte = For Registration this must be 0x01 indicating that the user has explicitly verified the action.
-        // 2 byte = Signature Algorithm and Encoding of the attestation signature.
-        // 2 byte = Public Key algorithm and encoding of the newly generated UAuth.pub key.
-        let value = Data(bytes: [0x01, 0x00, 0x01, 0x01, 0x00, 0x01, 0x00])
+        // 2 byte = Signature Algorithm and Encoding of the attestation signature. => 0x0002 -> ALG_SIGN_SECP256R1_ECDSA_SHA256_DER
+        // 2 byte = Public Key algorithm and encoding of the newly generated UAuth.pub key. => 0x0101 -> ALG_KEY_ECC_X962_DER
+        let value = Data(bytes: [0x01, 0x00, 0x01, 0x02, 0x00, 0x01, 0x01])
         data.append(contentsOf: UnsignedUtil.encodeInt(int: value.count))
         data.append(contentsOf: value)
 

@@ -1,6 +1,6 @@
 import Foundation
 
-enum FidoError: CShort {
+public enum FidoError: CShort {
     case NO_ERROR = 0x00
     case WAIT_USER_INTERACTION = 0x01
     case INSECURE_TRANSPORT = 0x02
