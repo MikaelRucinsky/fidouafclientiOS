@@ -15,11 +15,15 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
 
   s.source       = { :git => "https://github.com/teamhanko/fidouafclientiOS.git", :tag => "#{s.version}" }
+  s.swift_version = '4.2'
+  s.ios.deployment_target = '10.0'
 
   s.source_files  = "FidoUafClientiOS/**/*.{h,m,swift}"
   s.resource_bundles = { 
     'io_hanko_fidouafclientios' => [ 'FidoUafClientiOS/**/*.{strings}' ]
   }
   s.public_header_files = "FidoUafClientiOS/**/*.h"
+
+  s.ios.framework = 'UIKit'
 
 end
